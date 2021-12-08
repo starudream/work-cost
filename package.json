@@ -1,0 +1,22 @@
+{
+  "name": "work-cost",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "cp:mathjax": "mkdir -p static/js/mathjax && cp node_modules/mathjax/es5/tex-svg.js static/js/mathjax/tex-svg.js"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "element-ui": "^2.15.6",
+    "mathjax": "^3.2.0",
+    "mathjax-full": "^3.2.0",
+    "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "@nuxt/types": "~2.15.8"
+  }
+}
