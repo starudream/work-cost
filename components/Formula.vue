@@ -17,5 +17,8 @@ export default {
 </script>
 
 <style scoped>
-
+.formula {
+  height: 100px;
+  overflow-x: auto;
+}
 </style>
